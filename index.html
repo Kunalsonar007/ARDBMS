@@ -1,0 +1,1294 @@
+<!-- Program 1: Design a webpage using inline and internal css -->
+<html>
+
+<head>
+    <style>
+        p {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Numquam nulla allquam a doloribus pariatur vero voluptatum corporis quasi,harum veniam exercitationem commodi ?
+    </p>
+    <p style="color:rgb(228, 0, 0); font-size: 15px; text-align: center;">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit.</p>
+</body>
+
+</html>
+
+<!-- Program 2: Demonstrate the use of external css -->
+<!-- external.html -->
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <h1>Lorem</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde nemo modi, dolore, odit illo tenetur fugiat
+        necessitatibus harum cupiditate incidunt quos velit eius dolores minus corporis saepe laboriosam. At, non.</p>
+</body>
+
+</html>
+
+<!-- index.css -->
+body {
+background-color:rgb(235, 230, 201);
+}
+h1 {
+color:rgb(131, 0, 136);
+margin-left:20px;
+text-align: center;
+}
+
+<!-- Program 3: Demonstrate external css to format your class timetable -->
+<!-- Table.html -->
+<html>
+
+<head>
+    <title>Timetable</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <h1>MCA Timetable</h1>
+    <table class="timetable">
+        <!-- Table content remains the same -->
+    </table>
+</body>
+
+</html>
+
+<!-- index.css -->
+h1 {
+text-align: center;
+}
+table {
+border-collapse:collapse;
+width:100%;
+}
+th,td {
+border:1px solid #ddd;
+padding:10px;
+text-align:left;
+}
+.timetable {
+margin-top:20px;
+}
+.timetable th {
+background-color:#333;
+color:#fff;
+}
+.timetable td {
+background-color:#f9f9f9;
+}
+.monday { background-color:#cce5ff; }
+.tuesday { background-color:#ffe6cc; }
+.wednesday { background-color:#ccffcc; }
+.thursday { background-color:#ffcccc; }
+.friday { background-color:#ccccff; }
+
+<!-- Program 4: Demonstrate ordered and unordered lists -->
+<html>
+
+<head>
+    <title>order and unorder lists</title>
+    <style>
+        .Fruit {
+            list-style-type: decimal;
+            color: blueviolet;
+        }
+
+        .Color {
+            list-style-type: upper-alpha;
+            color: deeppink;
+        }
+
+        .Degree1 {
+            list-style-type: square;
+            color: forestgreen;
+        }
+
+        .Degree2 {
+            list-style-type: circle;
+            color: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Ordered Lists</h2>
+    <ol class="Fruit">
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+    </ol>
+    <ol class="Color">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Black</li>
+    </ol>
+    <h2>Unordered List</h2>
+    <ul class="Degree1">
+        <li>MCA</li>
+        <li>BCA</li>
+        <li>BBA</li>
+        <li>MBA</li>
+    </ul>
+    <ul class="Degree2">
+        <li>BSc</li>
+        <li>BE</li>
+        <li>BTECH</li>
+        <li>MBBS</li>
+    </ul>
+</body>
+
+</html>
+
+<!-- Program 5: Set background color -->
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #2b6dc2;
+        }
+
+        h3 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum totam iusto non possimus dolorum consectetur,
+        pariatur numquam qui error. Asperiores cumque vitae sed officilis eius molestias dolor delectus ad esse.</h3>
+</body>
+
+</html>
+
+<!-- Program 6: Set different background images -->
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url('dandelion.jpg'), url('lake.jpg');
+            background-position: left, right;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+</body>
+
+</html>
+
+<!-- Program 7: Set different font styles -->
+<html>
+
+<head>
+    <title>Font Styles</title>
+    <style>
+        .italic-style {
+            font-style: italic;
+        }
+
+        .normal-style {
+            font-style: normal;
+        }
+
+        .bold-style {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Font Styles</h1>
+    <h2 class="italic-style">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <h3 class="normal-style">Delectus quam enim aliquam quia incidunt rem eum ?</h3>
+    <h4 class="bold-style">Maxime, adipisci vel. Animi pariatur, quasi laboriosam dicta harum vero eum ?</h4>
+</body>
+
+</html>
+
+<!-- Program 8: Demonstrate text formatting -->
+<html>
+
+<head>
+    <title>Text Formatting</title>
+    <style>
+        .rgb {
+            color: rgb(211, 31, 255);
+        }
+
+        .rgba {
+            background-color: rgba(100, 231, 31, 0.5);
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .para1 {
+            text-indent: 25px;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>text color</h2>
+    <p class="rgb">the red,green and blue</p>
+    <p class="rgba">background color is </p>
+    <p class="left">left text</p>
+    <p class="uppercase">letter is in uppercase</p>
+    <p class="para1">text indent is 25px</p>
+    <p class="underline">text is here</p>
+</body>
+
+</html>
+
+<!-- Program 9: Three column frameset -->
+<!-- index.html -->
+<html>
+
+<head>
+    <title>Three Column Layout</title>
+</head>
+<frameset cols="33%, 34%, 33%">
+    <frame src="left.html" name="leftFrame">
+        <frame src="middle.html" name="middleFrame">
+            <frame src="right.html" name="rightFrame">
+</frameset>
+
+</html>
+
+<!-- left.html -->
+<html>
+
+<head>
+    <title>Left Frame</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body></body>
+
+</html>
+
+<!-- middle.html -->
+<html>
+
+<head>
+    <title>Middle Frame</title>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body></body>
+
+</html>
+
+<!-- right.html -->
+<html>
+
+<head>
+    <title>Right Frame</title>
+    <style>
+        body {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body></body>
+
+</html>
+
+<!-- Program 10: Two-frame layout with navigation -->
+<!-- index2.html -->
+<html>
+
+<head>
+    <title>Two-Frame Layout</title>
+</head>
+<frameset cols="20%, 80%">
+    <frame src="navigation.html" name="navFrame">
+        <frame src="home.html" name="contentFrame">
+</frameset>
+
+</html>
+
+<!-- navigation.html -->
+<html>
+
+<head>
+    <title>Navigation</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="home.html" target="contentFrame">Home</a></li>
+        <li><a href="about.html" target="contentFrame">About</a></li>
+        <li><a href="services.html" target="contentFrame">Services</a></li>
+        <li><a href="contact.html" target="contentFrame">Contact</a></li>
+    </ul>
+</body>
+
+</html>
+
+<!-- home.html -->
+<html>
+
+<head>
+    <title>Home</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the Home Page</h1>
+    <p>This is the home page content.</p>
+</body>
+
+</html>
+
+<!-- Program 11: Three row frameset -->
+<html>
+
+<head>
+    <title>Three-Part Frameset</title>
+</head>
+<frameset rows="33.3%,33.3%,33.3%">
+    <frame style="background-color:#33ccff;" name="topFrame">
+        <frame style="background-color: #9999ff;" name="middleFrame">
+            <frame style="background-color: #ff99cc;" name="bottomFrame">
+</frameset>
+
+</html>
+
+<!-- Program 12: ID selector -->
+<html>
+
+<head>
+    <title>ID Selector Example</title>
+    <style>
+        #ID1 {
+            background-color: #65c2da;
+            color: #ffffff;
+            padding: 10px;
+            font-size: 20px;
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ID1">
+        This is a div with the ID : "ID1".<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ea unde alias nostrum laborum dicta illo fugit.
+    </div>
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ea unde alias nostrum laborum dicta illo fugit.
+    </p>
+</body>
+
+</html>
+
+<!-- Program 13: Class selector -->
+<html>
+
+<head>
+    <style>
+        .C1 {
+            color: rgb(209, 27, 179);
+        }
+
+        .C2 {
+            background-color: #f7786b;
+            color: rgb(255, 255, 255);
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="C1"> Welcome in the CSS World !</h1>
+    <h2>Example of class Selector</h2>
+    <div class="C2">
+        <h3> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+    </div>
+</body>
+
+</html>
+
+<!-- Program 14: Border radius -->
+<html>
+
+<head>
+    <style>
+        #id1 {
+            border-radius: 25px;
+            background: #0881b1;
+            width: 200px;
+            height: 150px;
+            border-radius: 10% 30% 50% 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Border Radius !</h1>
+    <div id="id1"></div><br>
+</body>
+
+</html>
+
+<!-- Program 15: RGBA colors -->
+<html>
+<title>RGB color</title>
+
+<body>
+    <h1 style="background-color:rgb(148, 0, 211);">Violate</h1>
+    <h1 style="background-color:rgb(75, 0, 130);">Indigo</h1>
+    <h1 style="background-color:rgb(0, 0, 255);">Blue</h1>
+    <h1 style="background-color:rgb(0, 255, 0);">Green</h1>
+    <h1 style="background-color:rgb(255, 255, 0);">Yellow</h1>
+    <h1 style="background-color:rgb(255, 127, 0);">Orange</h1>
+    <h1 style="background-color:rgb(255, 0, 0);">Red</h1>
+</body>
+
+</html>
+
+<!-- Program 16: Linear gradient -->
+<html>
+
+<head>
+    <style>
+        #id1 {
+            height: 400px;
+            background-color: red;
+            background-image: linear-gradient(red, orange, yellow, green);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Linear Gradients</h1>
+    <h2>Color Stops (evenly spaced):</h2>
+    <div id="id1"></div>
+</body>
+
+</html>
+
+<!-- Program 17: Radial gradient -->
+<html>
+
+<head>
+    <style>
+        #id1 {
+            height: 250px;
+            width: 250px;
+            background-image: repeating-radial-gradient(#ff0000 50px, #fcff33 100px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Radial Gradients</h1>
+    <div id="id1"></div>
+</body>
+
+</html>
+
+<!-- Program 18: College webpage -->
+<html>
+
+<head>
+    <title>G. H. Raisoni Engineering and Management College, Jalgaon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #4f047ed8;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #5c0f88;
+            overflow: hidden;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            background-color: #4f047ed8;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #5c0f8B;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        .courses,
+        .faculty {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            flex: 1 1 calc(33.333% - 40px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+            color: #5c0f8B;
+        }
+
+        footer {
+            background-color: #5c0f8B;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>G. H. Raisoni Engineering and Management College</h1>
+        <p>Jalgaon - Striving for Excellence in Education</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>G.H. Raisoni Engineering and Management College, Jalgaon, is committed to providing facilities, top-notch
+                education in engineering and management fields. Our state-of-the-art experienced faculty, and vibrant
+                campus environment foster a culture of innovation, leadership, and excellence.</p>
+        </section>
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <div class="courses">
+                <div class="card">
+                    <h3>B.Tech in Computer Science</h3>
+                    <p>Explore the world of computing, programming, and software development.</p>
+                </div>
+                <div class="card">
+                    <h3>B.Tech in Mechanical Engineering</h3>
+                    <p>Learn about designing, manufacturing, and maintaining mechanical systems.</p>
+                </div>
+                <div class="card">
+                    <h3>MCA (Masters of Computer Application)</h3>
+                    <p>A solid based in Data Management, IT infrastructure, Software Development, System Design And It
+                        related concepts.</p>
+                </div>
+            </div>
+        </section>
+        <section id="faculty">
+            <h2>Our Faculty</h2>
+            <div class="faculty">
+                <div class="card">
+                    <h3>Dr. A. P. Sharma</h3>
+                    <p>Head of Computer Science Department with 15+ years of experience.</p>
+                </div>
+                <div class="card">
+                    <h3>Prof. S. V. Kulkarni</h3>
+                    <p>Expert in Mechanical Engineering and Industrial Processes.</p>
+                </div>
+                <div class="card">
+                    <h3>Prof. Rupli Dhakes</h3>
+                    <p>Senior Professor of MCA Department with professional Coding Skills with 10+ years of experience.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Address: G.H. Raisoni College of Engineering and Management, Jalgaon, Maharashtra, India<br>
+                Phone: +91 7447320386<br>
+                Email: <a href="mailto:info@ghraisoni.edu">info@ghraisoni.edu</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 G.H. Raisoni College of Engineering and Management, Jalgaon. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+<!-- Program 19: Hello World -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World</title>
+</head>
+
+<body>
+    <script>
+        document.write("Hello, World!");
+    </script>
+</body>
+
+</html>
+
+<!-- Program 20: Square root calculator -->
+<html>
+
+<head>
+    <title>Square Root Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+
+        input {
+            padding: 8px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Square Root Calculator</h2>
+        <input type="number" id="num" placeholder="Enter a number">
+        <button onclick="calculateSquareRoot()">Find Square Root</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function calculateSquareRoot() {
+            let num = document.getElementById("num").value;
+            if (num === "" || num < 0) {
+                document.getElementById("result").innerHTML = "Please enter a valid non-negative number.";
+            } else {
+                let sqrt = Math.sqrt(num);
+                document.getElementById("result").innerHTML = `Square root of ${num} is ${sqrt}`;
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- Program 21: Add two numbers -->
+<html>
+
+<head>
+    <title>Add Two Numbers</title>
+</head>
+
+<body>
+    <h1>Add Two Numbers</h1>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1"><br><br>
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2"><br><br>
+    <button onclick="addNumbers()">Add</button><br><br>
+    <label for="result">Result:</label>
+    <input type="text" id="result" readonly>
+    <script>
+        function addNumbers() {
+            const num1 = parseFloat(document.getElementById('num1').value);
+            const num2 = parseFloat(document.getElementById('num2').value);
+            if (isNaN(num1) || isNaN(num2)) {
+                alert("Please enter valid numbers.");
+                return;
+            }
+            const sum = num1 + num2;
+            document.getElementById('result').value = sum;
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- Program 22: Odd or even checker -->
+<html>
+
+<head>
+    <title>Odd or Even Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+
+        input {
+            padding: 8px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Odd or Even Checker</h2>
+        <input type="number" id="num" placeholder="Enter a number">
+        <button onclick="checkOddEven()">Check</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function checkOddEven() {
+            let num = document.getElementById("num").value;
+            if (num === "") {
+                document.getElementById("result").innerHTML = "Please enter a number.";
+            } else if (num % 2 === 0) {
+                document.getElementById("result").innerHTML = `${num} is an Even number.`;
+            } else {
+                document.getElementById("result").innerHTML = `${num} is an Odd number.`;
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- Program 23: Password validation -->
+<html>
+
+<head>
+    <title>Password Validation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+
+        input {
+            padding: 8px;
+            margin: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Password Validation</h2>
+        <input type="password" id="password" placeholder="Enter Password"><br>
+        <input type="password" id="confirmPassword" placeholder="Retype Password"><br>
+        <button onclick="validatePassword()">Validate</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function validatePassword() {
+            let password = document.getElementById("password").value;
+            let confirmPassword = document.getElementById("confirmPassword").value;
+            let result = document.getElementById("result");
+            if (password == "" || confirmPassword == "") {
+                result.innerHTML = "Fields cannot be empty!";
+                result.className = "error";
+            } else if (password !== confirmPassword) {
+                result.innerHTML = "Passwords do not match!";
+                result.className = "error";
+            } else {
+                result.innerHTML = "Passwords match!";
+                result.className = "success";
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- Program 24: Display today's date -->
+<html>
+
+<head>
+    <title>Display Today's Date</title>
+</head>
+
+<body>
+    <p>Today's date is: <span id="date"></span></p>
+    <script>
+        function displayDate() {
+            const currentDate = new Date();
+            const dateSpan = document.getElementById("date");
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = currentDate.toLocaleDateString(undefined, options);
+            dateSpan.textContent = formattedDate;
+        }
+        displayDate();
+        function displayDateExample1() {
+            const currentDate = new Date();
+            const day = String(currentDate.getDate()).padStart(2, '0');
+            const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+            const year = currentDate.getFullYear();
+            document.getElementById("example1").innerHTML = day + '/' + month + '/' + year;
+        }
+    </script>
+    <p>Example 1: DD/MM/YYYY: <span id="example1"></span></p>
+    <script>displayDateExample1();</script>
+</body>
+
+</html>
+
+<!-- Program 25: Number validation -->
+<html>
+
+<head>
+    <title>Number Validation</title>
+</head>
+
+<body>
+    <label for="numberInput">Enter a number:</label>
+    <input type="text" id="numberInput">
+    <button onclick="validateNumber()">Validate</button>
+    <p id="validationResult"></p>
+    <script>
+        function validateNumber() {
+            const inputElement = document.getElementById("numberInput");
+            const inputValue = inputElement.value;
+            const resultElement = document.getElementById("validationResult");
+            if (inputValue === "") {
+                resultElement.textContent = "Please enter a number.";
+                return;
+            }
+            if (isNaN(inputValue)) {
+                resultElement.textContent = "Invalid input.";
+                return;
+            }
+            const num = Number(inputValue);
+            if (Number.isInteger(num) && num > 0) {
+                resultElement.textContent = "Valid positive integer.";
+            } else if (Number.isInteger(num)) {
+                resultElement.textContent = "Valid integer.";
+            } else {
+                resultElement.textContent = "Valid number (decimal).";
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- Program 26: Different events -->
+<html>
+
+<head>
+    <title>Simple Events</title>
+</head>
+
+<body>
+    <button id="myButton">Click Me</button>
+    <input type="text" id="myInput" placeholder="Type here">
+    <div id="myDiv" style="width: 100px; height: 100px; background-color: lightblue;">Hover Me</div>
+    <script>
+        document.getElementById('myButton').addEventListener('click', function () {
+            alert('Button clicked!');
+        });
+        document.getElementById('myInput').addEventListener('input', function (event) {
+            console.log('Input changed:', event.target.value);
+        });
+        document.getElementById('myDiv').addEventListener('mouseover', function () {
+            this.style.backgroundColor = 'lightgreen';
+        });
+        document.getElementById('myDiv').addEventListener('mouseout', function () {
+            this.style.backgroundColor = 'lightblue';
+        });
+    </script>
+</body>
+
+</html>
+
+<!-- Program 27: Date & Time object -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date & Time Demo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #datetime-display {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        #date-details,
+        #time-details {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Date & Time in JavaScript</h1>
+    <div id="datetime-display"></div>
+    <div id="date-details"></div>
+    <div id="time-details"></div>
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const datetimeDisplay = document.getElementById('datetime-display');
+            datetimeDisplay.textContent = now.toLocaleString();
+            const dateDetailsDiv = document.getElementById('date-details');
+            const timeDetailsDiv = document.getElementById('time-details');
+            const dateDetails = `
+    <p><strong>Date Details:</strong></p>
+    <p>Year: ${now.getFullYear()}</p>
+    <p>Month: ${now.getMonth() + 1} (0-indexed, so +1)</p>
+    <p>Date: ${now.getDate()}</p>
+    <p>Day: ${now.getDay()} (0=Sunday, 6=Saturday)</p>
+    `;
+            const timeDetails = `
+    <p><strong>Time Details:</strong></p>
+    <p>Hours: ${now.getHours()}</p>
+    <p>Minutes: ${now.getMinutes()}</p>
+    <p>Seconds: ${now.getSeconds()}</p>
+    <p>Milliseconds: ${now.getMilliseconds()}</p>
+    `;
+            dateDetailsDiv.innerHTML = dateDetails;
+            timeDetailsDiv.innerHTML = timeDetails;
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    </script>
+</body>
+
+</html>
+
+<!-- Program 28: Dialog boxes -->
+<html>
+
+<head>
+    <title>Dialog Box Demo</title>
+</head>
+
+<body>
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="showConfirm()">Show Confirm</button>
+    <button onclick="showPrompt()">Show Prompt</button>
+    <p id="result"></p>
+    <script>
+        function showAlert() {
+            alert("This is an alert box!");
+        }
+        function showConfirm() {
+            const result = confirm("Do you want to continue?");
+            document.getElementById("result").textContent = "Confirm result: " + result;
+            if (result) {
+                console.log("User confirmed.");
+            } else {
+                console.log("User canceled.");
+            }
+        }
+        function showPrompt() {
+            const name = prompt("Please enter your name:", "Guest");
+            if (name !== null) {
+                document.getElementById("result").textContent = "Hello, " + name + "!";
+                console.log("User entered: " + name);
+            } else {
+                document.getElementById("result").textContent = "Prompt canceled.";
+                console.log("Prompt canceled.");
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- Program 29: Email validation -->
+<html>
+
+<head>
+    <title>Email Validation</title>
+</head>
+
+<body>
+    <label for="emailInput">Enter your email:</label>
+    <input type="text" id="emailInput">
+    <button onclick="validateEmail()">Validate</button>
+    <p id="validationResult"></p>
+    <script>
+        function validateEmail() {
+            const emailInput = document.getElementById("emailInput");
+            const email = emailInput.value;
+            const resultElement = document.getElementById("validationResult");
+            if (email === "") {
+                resultElement.textContent = "Please enter an email address.";
+                return;
+            }
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailRegex.test(email)) {
+                resultElement.textContent = "Valid email address.";
+            } else {
+                resultElement.textContent = "Invalid email address.";
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- Program 30: String functions -->
+<html>
+
+<head>
+    <title>String Functions Demo</title>
+</head>
+
+<body>
+    <input type="text" id="inputString" value="Hello, World!">
+    <button onclick="runStringFunctions()">Run Functions</button>
+    <div id="results"></div>
+    <script>
+        function runStringFunctions() {
+            const inputString = document.getElementById("inputString").value;
+            const resultsDiv = document.getElementById("results");
+            resultsDiv.innerHTML = "";
+            resultsDiv.innerHTML += "<p>Length: " + inputString.length + "</p>";
+            resultsDiv.innerHTML += "<p>Uppercase: " + inputString.toUpperCase() + "</p>";
+            resultsDiv.innerHTML += "<p>Lowercase: " + inputString.toLowerCase() + "</p>";
+            resultsDiv.innerHTML += "<p>Substring (0, 5): " + inputString.substring(0, 5) + "</p>";
+            resultsDiv.innerHTML += "<p>Slice (7): " + inputString.slice(7) + "</p>";
+            resultsDiv.innerHTML += "<p>Slice (-6): " + inputString.slice(-6) + "</p>";
+            resultsDiv.innerHTML += "<p>Replace 'World' with 'JavaScript': " + inputString.replace("World", "JavaScript") + "</p>";
+            const stringWithSpaces = " Trim me ";
+            resultsDiv.innerHTML += "<p>Trimmed: '" + stringWithSpaces.trim() + "'</p>";
+            resultsDiv.innerHTML += "<p>Character at index 0: " + inputString.charAt(0) + "</p>";
+            resultsDiv.innerHTML += "<p>Index of 'World': " + inputString.indexOf("World") + "</p>";
+            resultsDiv.innerHTML += "<p>Includes 'Hello': " + inputString.includes("Hello") + "</p>";
+            resultsDiv.innerHTML += "<p>Split by comma: " + inputString.split(", ") + "</p>";
+            resultsDiv.innerHTML += "<p>Concat with '!!!': " + inputString.concat("!!!") + "</p>";
+        }
+    </script>
+</body>
+
+</html>
